@@ -1,0 +1,27 @@
+td{
+    height: 86px;
+    width: 80px;
+    text-align: center;
+}
+
+.table-hover > tbody > tr:hover{
+    background-color: white;
+}
+
+.table-hover > tbody > tr:hover td:hover {
+    background-color: #dddddd;
+}
+
+tbody{
+    display: block; height: 258px; overflow: hidden;
+}
+tr{
+    display: block;
+}
+
+.table-bordered{
+    display: inline-table;
+    width: 240px;
+    table-layout: fixed;
+    border: 2px solid #eceeef;
+}
