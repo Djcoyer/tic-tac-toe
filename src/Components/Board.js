@@ -111,7 +111,7 @@ class Board extends Component {
                 <div className="row">
                     <div className="col-sm-12 text-center">
                         <div className="btn-group">
-                            <button className="btn btn-outline-secondary btn-sm" onClick={() => this.toggleMessage()}>Undo</button>
+                            <button className="btn btn-outline-secondary btn-sm" id="undoButton" onClick={() => this.toggleMessage()}>Undo</button>
                             <button className="btn btn-outline-primary btn-sm" onClick={this.reset}>Restart</button>
                         </div>
                     </div>

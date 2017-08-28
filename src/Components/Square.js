@@ -23,7 +23,6 @@ const Square = (props) => {
     };
 
 Square.propTypes = {
-    value: PropTypes.number.isRequired,
     onClick: PropTypes.func.isRequired
 };
 
